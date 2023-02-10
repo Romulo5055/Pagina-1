@@ -1,0 +1,167 @@
+*{
+    margin: 0px;
+    padding: 0px; 
+   }
+
+.html{
+    background-color: rgba(21, 207, 46, 0.863);
+    color: rgb(18, 43, 182);
+    font-size: 12pt;
+    scroll-behavior: smooth;
+}
+
+.header{
+    display: table;
+    width: 100%;
+    height: 250px;
+    background-color: rgba(8, 11, 168, 0.61);
+    background-image: url(../img/BANNER.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+
+.nav{
+    display: table;
+    width: 100%;
+    background-color: rgb(35, 90, 69);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: dashed;
+}
+
+.nav ol{
+    list-style-type: none;
+
+   
+}
+
+.nav ol li{
+    display: inline-flex;
+    border-right: 1px rgb(20, 40, 155);
+
+}
+
+.nav ol li a{
+    color: aliceblue;
+    padding: 15px;
+    
+}
+
+.nav ol li a:hover{
+    color:white;
+  background-color: rgb(15, 192, 24);
+}
+
+.deporte{
+    background-color:rgb(67, 141, 57);
+    color:white;
+    text-align: justify;
+    padding: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.deporte h2{
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.futbol{
+    background-color:rgb(67, 141, 57);
+    color:white;
+    text-align: justify;
+    padding: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.futbol h2{
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.beisbol{
+    background-color:rgb(67, 141, 57);
+    color:white;
+    text-align: justify;
+    padding: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.beisbol h2{
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.basket{
+    background-color:rgb(67, 141, 57);
+    color:white;
+    text-align: justify;
+    padding: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.basket h2{
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.tenis{
+    background-color:rgb(67, 141, 57);
+    color:white;
+    text-align: justify;
+    padding: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.tenis h2{
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.golf{
+    background-color:rgb(67, 141, 57);
+    color:white;
+    text-align: justify;
+    padding: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.golf h2{
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.footer{
+    width: 100%;
+    height: 100%;
+    background-color:rgb(35, 78, 29);
+    color: rgb(221, 212, 212);
+    text-align: center;
+    text-decoration: none;
+}
+
+.flecha{
+    color:white;
+    width: 40px;
+    height: 40px;
+    background-color: rgb(7, 104, 7);
+    text-align: center;
+    line-height: 40px;
+    border-radius: 100%;
+    z-index: 10;
+    position: fixed;
+    right: 10px;
+    bottom: 50px;
+    text-decoration: solid;
+    text-decoration: none;
+
+}
